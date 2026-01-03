@@ -1,5 +1,7 @@
-import streamlit as st
 import pandas as pd
+import streamlit as st
+import matplotlib
+matplotlib.use('Agg')  # Fix for Streamlit Cloud
 import matplotlib.pyplot as plt
 import os
 
@@ -141,4 +143,5 @@ if st.button("📥 Download Summary Report", type="primary"):
         mime="text/plain"
     )
 
-st.caption("© Claim Quality Analysis Engine v1.0")
+st.caption("© Claim Quality Analysis Engine v1.0") 
+Fix: Updated for Streamlit Cloud compatibility
