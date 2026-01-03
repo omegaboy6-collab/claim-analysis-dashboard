@@ -1,0 +1,8 @@
+Officer,Date_of_Invoice,Payment_Amount,Member_Insured,Provider_Name,Country_of_Treatment,Country_Currency,Payment_Currency,Member_Name,Cost_Breakdown_QT,Date_of_Treatment,TG_Apply,Diagnosis,Plan,Sub_Plan,Treatment,Referrals,Medical_Case,Error_Type
+John,5/10/2024,1500,Alice Smith,MediCare,USA,USD,USD,Alice Smith,500,5/1/2024,Yes,Hypertension,Gold,Basic,Consultation,No,Chronic,Wrong_Currency
+Sarah,6/12/2024,2000,Bob Lee,HealthPlus,Germany,EUR,USD,Bob Lee,700,6/1/2024,No,Diabetes,Silver,Dental,Surgery,Yes,Acute,Data_Entry
+John,7/15/2024,1200,Carol Wang,CityClinic,UK,GBP,GBP,Carol Wang,300,7/10/2024,Yes,Asthma,Gold,Basic,Medication,No,Chronic,Missing_Referral
+Mike,8/20/2024,3000,David Brown,GlobalCare,Japan,JPY,USD,David Brown,1000,8/15/2024,Yes,Fracture,Platinum,Surgical,X-Ray,Yes,Trauma,Wrong_Plan
+Sarah,9/5/2024,1800,Eve Taylor,MediCare,USA,USD,USD,Eve Taylor,600,9/1/2024,No,Migraine,Silver,Basic,Therapy,No,Chronic,Duplicate_Invoice
+John,9/18/2024,2200,Frank Kim,HealthPlus,France,EUR,EUR,Frank Kim,800,9/10/2024,Yes,Infection,Gold,Dental,Surgery,Yes,Acute,Wrong_Diagnosis
+Mike,10/3/2024,950,Grace Lee,CityClinic,Canada,CAD,USD,Grace Lee,250,9/25/2024,No,Allergy,Silver,Basic,Consultation,No,Acute,Currency_Mismatch
