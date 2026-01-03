@@ -1,7 +1,5 @@
-import pandas as pd
 import streamlit as st
-import matplotlib
-matplotlib.use('Agg')  # Add this line
+import pandas as pd
 import matplotlib.pyplot as plt
 import os
 
@@ -142,6 +140,5 @@ if st.button("📥 Download Summary Report", type="primary"):
         file_name="claim_quality_report.txt",
         mime="text/plain"
     )
-
 
 st.caption("© Claim Quality Analysis Engine v1.0")
